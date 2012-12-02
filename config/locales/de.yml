@@ -79,6 +79,9 @@ de:
         total: Gesamtsumme
       spree/payment_method:
         name: Name
+      spree/payment:
+        amount: authorisierter Betrag
+        capture: aktueller Betrag
       spree/product:
         available_on: "Erhältlich ab"
         cost_price: "Einkaufspreis"
@@ -1075,6 +1078,8 @@ de:
   sort_ordering: "Sortierung"
   special_instructions: "Spezielle Anweisungen"
   spree:
+    time: Uhrzeit
+    date: Datum
   spree/order:
     coupon_code: Aktions-Code
     date: Date
@@ -1186,7 +1191,7 @@ de:
   vat: "USt"
   version: Version
   view_shipping_options: "Zeige Versandoptionen"
-  void: entwerten
+  void: stornieren
   website: Webseite
   weight: Gewicht
   welcome_to_sample_store: "Willkommen im Beispiel-Shop"
