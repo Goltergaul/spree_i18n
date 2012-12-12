@@ -208,6 +208,7 @@ de:
       spree/taxon:
         one: "Produktkategorie"
         other: "Produktkategorien"
+        add: "Kategorie hinzufügen"
       spree/taxonomy:
         one: Produktklassifizierung
         other: Produktklassifizierungen
