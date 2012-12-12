@@ -1,5 +1,7 @@
 ---
 de:
+  new_vendor: "Neuer Shop"
+  editing_vendor: "Shop bearbeiten"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Eine Kopie aller E-Mails wird an die folgenden Adressen geschickt"
   abbreviation: Abkürzung
   access_denied: "Zugriff verweigert"
