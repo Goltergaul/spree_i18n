@@ -1082,6 +1082,8 @@ de:
   spree:
     time: Uhrzeit
     date: Datum
+    api:
+      generate_key: API Key generieren
   spree/order:
     coupon_code: Aktions-Code
     date: Date
