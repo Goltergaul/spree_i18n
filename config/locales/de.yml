@@ -571,7 +571,8 @@ de:
   mail_server_preferences: "E-Mail-Server Einstellungen"
   make_refund: "Erstattung machen"
   mark_shipped: "Als versendet kennzeichnen"
-  master_price: 'Verkaufspreis (netto)'
+  master_price: "Verkaufspreis (brutto)"
+  no_sku: "Dieser Artikel hat keinen Barcode"
   match_choices:
     all: "Alle"
     none: "Keine"
