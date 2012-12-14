@@ -1,5 +1,7 @@
 ---
 de:
+  new_vendor: "Neuer Shop"
+  editing_vendor: "Shop bearbeiten"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Eine Kopie aller E-Mails wird an die folgenden Adressen geschickt"
   abbreviation: Abkürzung
   access_denied: "Zugriff verweigert"
@@ -79,6 +81,9 @@ de:
         total: Gesamtsumme
       spree/payment_method:
         name: Name
+      spree/payment:
+        amount: authorisierter Betrag
+        capture: aktueller Betrag
       spree/product:
         available_on: "Erhältlich ab"
         cost_price: "Einkaufspreis"
@@ -201,8 +206,9 @@ de:
         one: "Steuersatz"
         other: "Steuersätze"
       spree/taxon:
-        one: "Produktklasse"
-        other: "Produktklassen"
+        one: "Produktkategorie"
+        other: "Produktkategorien"
+        add: "Kategorie hinzufügen"
       spree/taxonomy:
         one: Produktklassifizierung
         other: Produktklassifizierungen
@@ -265,8 +271,8 @@ de:
   are_you_sure_delete_image: "Sind sie sicher, dass Sie dieses Bild löschen möchten?"
   are_you_sure_option_type: "Sind sie sicher, dass Sie diesen Optionstyp löschen möchten?"
   are_you_sure_you_want_to_capture: "Sind Sie sicher, dass Sie das erfassen wollen?"
-  assign_taxon: "Produktklasse zuweisen"
-  assign_taxons: "Produktklassen zuweisen"
+  assign_taxon: "Produktkategorie zuweisen"
+  assign_taxons: "Produktkategorien zuweisen"
   attachment_default_style: "Anhangs Stil"
   attachment_default_url: "Anhangs URL"
   attachment_path: "Anhangs Pfad"
@@ -275,7 +281,7 @@ de:
   authorized: Angemeldet
   availability: "Verfügbarkeit"
   available_on: "erhältlich ab"
-  available_taxons: "Verfügbare Produktklassen"
+  available_taxons: "Verfügbare Produktkategorien"
   awaiting_return: erwartet Rückgabe
   back: Zurück
   back_end: Backend
@@ -437,7 +443,7 @@ de:
   error_user_destroy_with_orders: "Benutzer mit abgeschlossenen Bestellungen können nicht gelöscht werden"
   errors:
     messages:
-      could_not_create_taxon: "Konnte die Produktklasse nicht erstellen"
+      could_not_create_taxon: "Konnte die Produktkategorie nicht erstellen"
       no_payment_methods_available: "Es sind keine Bezahlmethoden konfiguriert"
       no_shipping_methods_available: "Für diese Region sind keine Liefermethoden verfügbar. Bitte wählen Sie eine anderen Region aus."
   errors_prohibited_this_record_from_being_saved:
@@ -616,7 +622,7 @@ de:
   new_state: "Neues Bundesland"
   new_tax_category: "Neue Steuer-Kategorie"
   new_tax_rate: "Neuer Steuersatz"
-  new_taxon: "Neue Produktklasse"
+  new_taxon: "Neue Produktkategorie"
   new_taxonomy: "Neue Produktklassifizierung"
   new_tracker: Neuer Tracker
   new_user: "Neuer Benutzer"
@@ -789,8 +795,8 @@ de:
         description: "Bereiche für das Auswählen von Produkten an Hand von Name, Schlagwort und Beschreibung des Produkts"
         name: "Text Suche"
       taxon:
-        description: "Bereiche für das Auswählen von Produkten an Hand von Produktklassen"
-        name: Produktklasse
+        description: "Bereiche für das Auswählen von Produkten an Hand von Produktkategorien"
+        name: Produktkategorie
       values:
         description: "Bereiche für das Auswählen von Produkten an Hand von Optionen und Eigenschaftswerten"
         name: Werte
@@ -823,9 +829,9 @@ de:
         sentence: "Name oder Meta-Schlagwort enthält <em>%s</em>"
       in_taxons:
         args:
-          "taxon_names": "Produktklassenamen"
-        description: "Produktklassennamen müssen per Komma oder Leerzeichen getrennt werden (z.B. adidas,schuhe)"
-        name: "In Produktklasse und all deren Untergeordneten"
+          "taxon_names": "Produktkategorienamen"
+        description: "Produktkategorienamen müssen per Komma oder Leerzeichen getrennt werden (z.B. adidas,schuhe)"
+        name: "In Produktkategorie und all deren Untergeordneten"
         sentence: "in <em>%s</em> und all deren Untergeordneten"
       master_price_gte:
         args:
@@ -848,9 +854,9 @@ de:
         sentence: "Preis zwischen <em>%.2f</em> und <em>%.2f</em>"
       taxons_name_eq:
         args:
-          taxon_name: "Produktklassename"
-        description: "In bestimmeter Produktklasse - ohne Untergeordnete"
-        name: "In Produktklasse (ohne Untergeordnete)"
+          taxon_name: "Produktkategoriename"
+        description: "In bestimmeter Produktkategorie - ohne Untergeordnete"
+        name: "In Produktkategorie (ohne Untergeordnete)"
         sentence: in <em>%s</em>
       with:
         args:
@@ -1076,6 +1082,10 @@ de:
   sort_ordering: "Sortierung"
   special_instructions: "Spezielle Anweisungen"
   spree:
+    time: Uhrzeit
+    date: Datum
+    api:
+      generate_key: API Key generieren
   spree/order:
     coupon_code: Aktions-Code
     date: Date
@@ -1119,15 +1129,15 @@ de:
   tax_settings_description: "Grundlegende Steuer-Einstellungen."
   tax_total: "U-St. Gesamt"
   tax_type: "Steuerart"
-  taxon: "Produktklasse"
-  taxon_edit: "Produktklasse bearbeiten"
+  taxon: "Produktkategorie"
+  taxon_edit: "Produktkategorie bearbeiten"
   taxonomies: "Produktklassifizierungen"
   taxonomies_setting_description: "Erzeugen und Verwalten von Produktklassifizierungen"
   taxonomy: Produktklassifizierung
   taxonomy_edit: "Produktklassifizierung bearbeiten"
   taxonomy_tree_error: "Die angeforderte Änderung wurde nicht akzeptiert, und der Baum wurde in seinen vorherigen Zustand versetzt, bitte noch einmal versuchen!"
   taxonomy_tree_instruction: "* Rechtsklick auf ein Kind im Baum öffnet das Menü zum Hinzufügen, Löschen oder Sortieren."
-  taxons: "Produktklassen"
+  taxons: "Produktkategorien"
   test: "Test"
   test_mailer:
     test_email:
@@ -1187,7 +1197,7 @@ de:
   vat: "USt"
   version: Version
   view_shipping_options: "Zeige Versandoptionen"
-  void: entwerten
+  void: stornieren
   website: Webseite
   weight: Gewicht
   welcome_to_sample_store: "Willkommen im Beispiel-Shop"
