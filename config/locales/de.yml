@@ -250,7 +250,7 @@ de:
         delivery_error: 'Test E-Mail Fehler'
         delivery_success: 'Test E-Mail wurde erfolgreich versendet'
         error: 'Test E-Mail Fehler: %{e}'
-  administration: Verwaltung
+  administration: Shopverwaltung
   all: "Alles"
   all_departments: "Alle Bereiche"
   allow_backorders: "Lieferrückstand erlauben"
