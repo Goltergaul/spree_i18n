@@ -1165,7 +1165,7 @@ de:
   unable_to_connect_to_gateway: "Konnte nicht zur Schnitstelle verbinden."
   unable_to_save_order: "Bestellung konnte nicht gespeichert werden"
   under_paid: "Unterbezahlt"
-  under_price: "Under %{price}"
+  under_price: "unter %{price}"
   unrecognized_card_type: 'Unbekannter Kartentyp'
   update: Aktualisieren
   update_password: "Passwort aktualisieren und einloggen"
