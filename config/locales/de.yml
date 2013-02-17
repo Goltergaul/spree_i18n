@@ -383,6 +383,7 @@ de:
   cut: Cut
   date_completed: Abgeschlossen am
   date_created: Erstellungsdatum
+  date_updated: Aktualisierungsdatum
   date_range: "Datum (von/bis)"
   debit: Lastschrift
   default: Standard
