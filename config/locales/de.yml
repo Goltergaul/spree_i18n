@@ -521,7 +521,7 @@ de:
   images_for: "Bilder für"
   in_progress: "In Bearbeitung"
   include_in_shipment: "In Lieferung berücksichtigen"
-  included_in_other_shipment: "In einer anderen Lieferung berücksichtigen"
+  included_in_other_shipment: "In einer anderen Lieferung enthalten"
   included_in_price: Im Preis enthalten
   included_in_this_shipment: "In dieser Lieferung enthalten"
   included_price_validation: "kann nicht gewählt werden, solange Sie nicht ein standard Steuergebiet gesetzt haben."
