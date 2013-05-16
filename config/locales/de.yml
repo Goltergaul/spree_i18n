@@ -85,6 +85,7 @@ de:
         amount: authorisierter Betrag
         capture: aktueller Betrag
       spree/product:
+        target_delivery_fee: "Versandkostenpreis für Endkunden"
         taxons: "Kategorien"
         available_on: "Erhältlich ab"
         cost_price: "Einkaufspreis"
